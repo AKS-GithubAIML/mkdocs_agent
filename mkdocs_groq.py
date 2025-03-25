@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import groq
 import tiktoken
-from langchain.document_loaders import TextLoader, UnstructuredFileLoader
+from langchain_community.document_loaders import TextLoader, UnstructuredFileLoader
 from langchain.document_loaders.web_base import WebBaseLoader
 
 st.set_page_config(layout="wide")
